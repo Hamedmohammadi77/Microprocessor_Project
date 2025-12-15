@@ -2,7 +2,6 @@
 
 Servo servo;
 int servoPin = 2;
-
 int currentAngle = 90;  
 
 int ir=9;
