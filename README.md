@@ -1,12 +1,4 @@
 # 💫 About Me:
 🚧 Microprocessor Project<br><br>A simple Arduino project that controls a servo motor gate using an IR obstacle sensor.<br>When an object is detected, the gate opens automatically; otherwise, it stays closed.<br><br>🧰 Hardware Requirements<br><br>Arduino (Uno / Nano / Mega)<br><br>Servo Motor (e.g. SG90)<br><br>IR Obstacle Sensor<br><br>Jumper Wires<br><br>Power Supply<br><br>🔌 Wiring<br>Component	Arduino Pin<br>Servo Signal	D2<br>Servo VCC	5V<br>Servo GND	GND<br>IR Sensor OUT	D9<br>IR Sensor VCC	5V<br>IR Sensor GND	GND<br>⚙️ How It Works<br><br>IR Sensor = HIGH → Gate Opens → Servo rotates to 180°<br><br>IR Sensor = LOW → Gate Closes → Servo rotates to 0°<br><br>Status messages are printed to the Serial Monitor<br><br>🧠 Logic Overview<br><br>Read IR sensor digital output<br><br>Decide gate state (open / close)<br><br>Rotate servo to the corresponding angle<br><br>🚀 Use Cases<br><br>Automatic gate systems<br><br>Smart parking barriers<br><br>Arduino learning projects<br><br>Obstacle detection systems<br><br>🔧 Possible Improvements<br><br>Add debounce delay<br><br>Add button / Bluetooth control<br><br>Add LCD or buzzer<br><br>Use PWM smoothing for servo<br><br>👤 Author<br><br>Hamed Mohammadi
 
-
-# 💻 Tech Stack:
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Hamedmohammadi77&theme=dark&hide_border=true&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=Hamedmohammadi77&theme=dark&hide_border=true)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Hamedmohammadi77&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
-
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
