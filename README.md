@@ -1,3 +1,5 @@
+<h3 align="center">🚧 Microprocessor_Project A simple Arduino project that controls a servo motor gate using an IR obstacle sensor. When an object is detected, the gate opens automatically; otherwise, it stays closed. 🧰 Hardware Requirements Arduino (Uno / Nano / Mega) Servo Motor (e.g. SG90) IR Obstacle Sensor Jumper Wires Power Supply 🔌 Wiring Component Arduino Pin Servo Signal D2 Servo VCC 5V Servo GND GND IR Sensor OUT D9 IR Sensor VCC 5V IR Sensor GND GND ⚙️ How It Works IR Sensor = HIGH → Gate Opens → Servo rotates to 180° IR Sensor = LOW → Gate Closes → Servo rotates to 0° Status messages are printed to the Serial Monitor 🧠 Logic Overview Read IR sensor digital output Decide gate state (open / close) Rotate servo to the corresponding angle</h3>
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 </p>
